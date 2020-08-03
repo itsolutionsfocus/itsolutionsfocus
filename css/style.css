@@ -293,7 +293,13 @@ body {
     color: #164565;
     transition-timing-function: ease-in;
     transition: 0.3s;
-    border: 2px solid #164565; }
+    border: 2px solid #164565;
+    box-shadow: none !important; }
+
+.btn {
+  color: #ffffff; }
+  .btn:active, .btn:focus {
+    box-shadow: none !important; }
 
 .seconday-fit-btn {
   background-color: #278e90;
@@ -330,7 +336,7 @@ body {
     margin-bottom: 5px;
     color: #164565; }
   #services .service-section .service {
-    padding: 0px 15px 35px 15px;
+    padding: 0px 30px 40px 15px;
     box-sizing: border-box; }
     #services .service-section .service li {
       text-align: center;
@@ -340,7 +346,7 @@ body {
       font-size: 16px;
       font-weight: 600; }
     #services .service-section .service p {
-      font-size: 14px; }
+      font-size: 13px; }
     #services .service-section .service a {
       color: #1bb1dc !important;
       font-weight: 500; }
@@ -351,6 +357,8 @@ body {
       margin-top: 5px; }
     #services .service-section .service img {
       width: 65%; }
+    #services .service-section .service .serv-place {
+      padding: 10px 105px; }
     #services .service-section .service .serv {
       list-style: none;
       text-align: left;
@@ -559,7 +567,7 @@ body {
       right: 15px;
       padding: 10px 20px;
       border: none; }
-      #subscribe .subscribe-section .custom-btn:hover, #subscribe .subscribe-section .custom-btn:active, #subscribe .subscribe-section .custom-btn:focus {
+      #subscribe .subscribe-section .custom-btn:hover {
         background: #ffffff;
         transition-timing-function: ease-in;
         transition: 0.3s;

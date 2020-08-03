@@ -26,7 +26,7 @@
 			right: 15px;
 			padding:10px 20px;
 			border:none;
-			&:hover, &:active, &:focus{
+			&:hover{
 				background:$bg-white;
 				transition-timing-function:ease-in;
 				transition: 0.3s;

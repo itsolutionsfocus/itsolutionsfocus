@@ -14,7 +14,7 @@
 			color: $color-dark-blue;
 		}
 		.service{
-			padding:0px 15px 35px 15px;
+			padding:0px 30px 40px 15px;
 			box-sizing: border-box;
 			li {
 				text-align: center;
@@ -27,7 +27,7 @@
 				
 			}
 			p{
-				font-size: 14px;
+				font-size: 13px;
 
 			}
 			a{
@@ -35,10 +35,10 @@
 				font-weight: 500;
 
 				
-			
+
 				&:hover{
 					color:none !important;
-				
+
 				}
 			}
 			.text-info{
@@ -47,6 +47,9 @@
 			}
 			img{
 				width:65%;
+			}
+			.serv-place{
+				padding: 10px 105px;
 			}
 			.serv{
 				list-style:none;
@@ -63,6 +66,7 @@
 				}				
 			}
 		}
+
 		
 
 	}	
