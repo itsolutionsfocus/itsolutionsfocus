@@ -1,0 +1,62 @@
+	#services{
+	padding: 60px  0px 60px 0px;	
+	
+	.service-section {
+		h2{
+			color: $color-dark-blue;
+			letter-spacing: 2px;
+			font-weight: 600;
+			font-size: 30px;
+		}
+		p{
+			margin: 15px 0px;
+			color: $color-dark-blue;
+		}
+		.service{
+			padding: 35px 15px;
+			box-sizing: border-box;
+			li {
+				
+			}
+			h5{
+				
+			}
+			p{
+				
+				
+
+			}
+			a{
+				
+			
+				&:hover{
+					
+				}
+			}
+			.text-info{
+				letter-spacing: 2px;
+				margin-top: 5px;
+			}
+			img{
+				width:65%;
+			}
+			.serv{
+				text-align: left;
+				list-style: none;
+				
+				
+				
+			    transition-timing-function: ease-in-out;
+				
+				
+
+				&:hover{
+					
+					}
+				}				
+			}
+		}
+		
+
+	}	
+}

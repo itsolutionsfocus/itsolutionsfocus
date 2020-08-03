@@ -1,0 +1,37 @@
+section#banner{
+	padding: 140px 0px 60px 0px;
+	/*	background: $bg-light-blue;*/
+	.banner-section {
+		.left-b{
+			padding: 80px 0px;
+			h6{
+			color: $color-dark-blue;
+			margin-bottom: 20px;
+		}
+		h2{
+			color: $color-dark-blue;
+			letter-spacing: 2px;
+			line-height: 50px;
+			font-weight: 600;
+			font-size: 30px;
+		}
+		}
+		
+		
+		p{
+			margin: 15px 0px;
+			line-height: 30px;
+		}
+		
+		
+		
+		
+		.banner-img {
+			text-align: end;
+			img{
+				width: 80%;
+				text-align: end;
+			}
+		}
+	}
+}

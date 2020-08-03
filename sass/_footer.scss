@@ -1,0 +1,31 @@
+/*footer section start*/
+#footer{
+	padding: 40px 0;
+	.footer-section{
+		span{
+			font-size: 16px;
+			color: $color-dark-blue;
+		}
+		ul{
+			display: inline-flex;
+			li{
+				width: 35px;
+				height: 35px;
+				text-align: center;
+				line-height: 37px;
+				border-radius: 200px;
+				border: 1px solid #e8e5e5;
+				list-style: none;
+				color: $color-dark-blue !important;
+				&:hover{
+					color:$color-white !important;
+					background: $bg-dark-blue;
+					transition: all 0.5s;
+				}
+			}
+		}
+		
+
+	}
+}
+/*footer section end*/

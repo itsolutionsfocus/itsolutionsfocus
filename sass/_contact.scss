@@ -1,0 +1,68 @@
+/* contact Section start*/
+#contact{
+	padding: 60px 0 0 0;
+	.contact-form{
+		background:$bg-white;
+		box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+		color: $color-dark-blue;
+		h4{
+			font-size:$head-sub2;
+			font-weight: 500;
+			color: $color-dark-blue;
+		}
+		.form-group{
+			border-radius:0;
+			border-bottom:1px solid #16456521;
+			.form-control{
+				border:none;
+				font-size: 16px;
+				color: #164565;
+				&:focus{
+					border-color:$color-white;
+				}
+			}
+		}
+		.form-btn{
+			.fit-default-btn{
+				font-size:$btn-text;
+				border-radius: 200px;
+				border:none;
+				padding: 12px 20px;
+				letter-spacing: 1px;
+				font-weight: 600;
+				outline:none;
+				&.primary-fit-btn{
+					background-color:$bg-dark-blue;
+					&:hover{
+						background:$bg-dark-blue;
+						box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+					}
+				}
+			}
+			button{
+	
+				width: 100%;
+			}
+
+		}
+	}
+	.address-section, .phone-section{
+		background:$bg-white;
+		box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+		color: $color-dark-blue;
+		.round{
+			
+			border-radius: 200px;
+			border: 2px dotted $color-black;
+			img{
+				padding: 6px;
+			}
+		}
+	}
+	.map-section{
+		background:$bg-white;
+		box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+	}
+
+}
+/* subscribe Section end*/
