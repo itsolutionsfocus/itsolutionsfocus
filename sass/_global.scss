@@ -11,41 +11,39 @@ body{
 		box-sizing: border-box;
 	}
 	.active{
-		color: #e04469 !important;
+		color: $brand !important;
 		font-weight: 600 !important;
 	}
 
-	/*#background{
+	#background{
 		width: 100%;
 		background-size: cover;
-		background-image: url(../images/background.jpg);
+		background-image: url(../images/background5.jpg);
 	}
-	*/
+	
 	/*button section*/
 	.primary-fit-btn{
-		background-color:$bg-dark-blue;
+		background: $bg-white;
 		font-size:$btn-text;
 		border-radius: 200px;
-		border:2px solid $color-dark-blue;
+		border:2px solid $black;
 		padding: 10px 20px;
 		letter-spacing: 1px;	
 		font-weight: 600;
 		transition-timing-function:ease-out;
 		transition: 0.5s;
+		color: $black;
 		&:hover{
-			background: $bg-white;
-			color: $color-dark-blue;
+			background-color:$black;
+			color: $white;
 			transition-timing-function: ease-in;
 			transition: 0.3s;
-			border: 2px solid $color-dark-blue;
+			border: 2px solid $black;
 			box-shadow: none !important;
 		}
-	/*	&:focus{ 
-			color: #fff;
-			background-color:$bg-dark-blue !important;
-			
+		&:focus{
+			outline:none;
 		}
-*/
 	}
 	.btn{
 		color: $color-white;
@@ -54,22 +52,25 @@ body{
 		}
 	}
 	.seconday-fit-btn{
-		background-color: $bg-green;
+		background: $white;
+		color: $brand;
 		font-size:$btn-text;
 		border-radius: 200px;
-		border: 2px solid $color-green;
+		border: 2px solid $brand;
 		padding: 10px 20px;
 		letter-spacing: 1px;
 		font-weight: 600;
 		transition-timing-function: ease-out;
 		transition: 0.5s;
 		&:hover{
-			
-			background: $bg-white;
-			color: $color-green;
+			background-color: $brand;
+			color: $white;
 			transition-timing-function: ease-in;
 			transition: 0.3s;
-			border: 2px solid $color-green;
+			border: 2px solid $brand;
+		}
+		&:focus{
+			outline:none;
 		}
 	}
 	@media (max-width: 576px) {
@@ -80,4 +81,43 @@ body{
 		.subscribe-btn{
 			display: flex;
 		}	
+	}
+	.border-right-none-lg{
+		border-right: none !important;
+	}
+	.border-bottom-none-lg{
+		border-bottom: none !important;
+	}
+	.hvr-shutter-out-horizontal:before {
+		content: "";
+		position: absolute;
+		z-index: -1;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color:$bg-light-blue;
+		-webkit-transform: scaleX(0);
+		transform: scaleX(0);
+		-webkit-transform-origin: 0 50%;
+		transform-origin: 0 50%;
+		-webkit-transition-property: transform;
+		transition-property: transform;
+		-webkit-transition-duration: 0.5s;
+		transition-duration: 0.5s;
+		-webkit-transition-timing-function: ease-out;
+		transition-timing-function: ease-out;
+	}
+
+	.hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+		-webkit-transform: scaleX(1);
+		transform: scaleX(1);
+	}
+	.hvr-shutter-out-horizontal {
+		-webkit-transform: perspective(1px) translateZ(0);
+		transform: perspective(1px) translateZ(0);
+		-webkit-transition-property: color;
+		transition-property: color;
+		-webkit-transition-duration: 0.5s;
+		transition-duration: 0.5s;
 	}

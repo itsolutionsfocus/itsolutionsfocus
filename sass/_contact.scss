@@ -2,14 +2,9 @@
 #contact{
 	padding: 60px 0 0 0;
 	.contact-form{
-		background:$bg-white;
-		box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-		color: $color-dark-blue;
-		h4{
-			font-size:$head-sub2;
-			font-weight: 500;
-			color: $color-dark-blue;
-		}
+		background: $white;
+		box-shadow: 0px 0px 10px rgba(234,234,234,0.7);
+		border: 1px solid #f1f1f1;
 		.form-group{
 			border-radius:0;
 			border-bottom:1px solid #16456521;
@@ -35,12 +30,13 @@
 					background-color:$bg-dark-blue;
 					&:hover{
 						background:$bg-dark-blue;
-						box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+						box-shadow: 0px 0px 10px rgba(234,234,234,0.7);
+						border: 1px solid #f1f1f1;
 					}
 				}
 			}
 			button{
-	
+
 				width: 100%;
 			}
 
@@ -48,20 +44,18 @@
 	}
 	.address-section, .phone-section{
 		background:$bg-white;
-		box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-		color: $color-dark-blue;
+		box-shadow: 0px 0px 10px rgba(234,234,234,0.7);
+		border: 1px solid $white;
+		line-height: 30px;
 		.round{
-			
-			border-radius: 200px;
-			border: 2px dotted $color-black;
-			img{
-				padding: 6px;
-			}
+			font-size: 30px;
+			color: $light-grey;
 		}
 	}
 	.map-section{
 		background:$bg-white;
-		box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+		box-shadow: 0px 0px 10px rgba(234,234,234,0.7);
+		border: 1px solid #f1f1f1;
 	}
 
 }

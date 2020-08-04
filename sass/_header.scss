@@ -11,6 +11,9 @@
 		top: 0;
 		background:$bg-white;
 		box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+		.focus-logo img{
+			width: 40%;
+		}
 		.nav-link{
 			
 		}
@@ -19,7 +22,7 @@
 	.menu-items {
 
 		a{
-			color: $color-dark-blue;
+			color: $black;
 			font-weight: 600;
 
 			&.middle{
@@ -47,7 +50,7 @@
 				
 			}
 			&:hover{
-				color:#e04469;
+				color:$brand;
 				font-weight: 600 !important;
 				transition:0.3s;
 				i{
@@ -59,7 +62,7 @@
 		}
 	}
 	.focus-logo img{
-		width: 45%;
+		width: 53%;
 	}	
 
 }

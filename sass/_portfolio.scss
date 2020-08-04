@@ -5,14 +5,14 @@
 	padding: 60px 0;
 	header{
 		h2{
-			color: $color-dark-blue;
+			color: $black;
 			letter-spacing: 2px;
 			font-weight: 600;
 			font-size: 30px;
 		}
 		p{
 			margin: 15px 0px;
-			color: $color-dark-blue;
+			color: $black;
 		}
 	}
 	#portfolio-flters {
@@ -27,12 +27,12 @@
 			padding: 6px 10px;
 			font-size: 16px;
 			line-height: 20px;
-			color: #413e66;
+			color: $black;
 			font-weight: 600;
 			margin-bottom: 5px;
 			transition: all 0.3s ease-in-out;
 			&:hover, &.filter-active{
-				color: #b32f4e;
+				color: $brand;
 			}
 			&:last-child {
 				margin-right: 0;
@@ -97,19 +97,19 @@
 					text-align: center;
 					width: 36px;
 					height: 36px;
-					background: #e04469;
+					background: $brand;
 					border-radius: 50%;
 					margin: 10px 4px 0 4px;   
 					padding: 2px 5px;
 					transition-timing-function: ease-out;
 					transition:0.3s;
 					i {
-						padding-top: 6px;
-						font-size: 22px;
+						padding-top: 8px;
+						font-size: 18px;
 						color: #fff;
 					}
 					&:hover {
-						background: #b32f4e;
+						background: $black;
 						transition: 0.3s;
 						i {
 							color: #fff;

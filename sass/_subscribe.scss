@@ -1,7 +1,7 @@
 
 /* subscribe Section start*/
 #subscribe{
-	background-color: $bg-hash;
+	background-color: $bg-light-blue;
 	padding: 40px 0;
 	.subscribe-section {
 		color:$color-black;
@@ -22,26 +22,27 @@
 			font-size: 13px;
 			color: $bg-white;
 			position: absolute;
-			border:2px solid $color-dark-blue ! important;
-			right: 15px;
+			border:2px solid $brand;
+			border-radius: 100px;
+			right: 0;
 			padding:10px 20px;
-			border:none;
+			font-weight: 600;
+			background:$brand;
 			&:hover{
 				background:$bg-white;
 				transition-timing-function:ease-in;
 				transition: 0.3s;
-				color: $color-dark-blue;
-				border:2px solid $color-dark-blue;
-
-
-
+				color: $brand;
+				border:2px solid $black !important;
+			}
+			&:focus{
+				outline:none;
 			}
 		}
 		.input-long{
-			
 			padding:10px 20px;
 			border-radius: 200px;
-			border: 2px solid $color-dark-blue;
+			border: 2px solid $black;
 			font-size: 13px;
 			width: 90%;
 			float: right;

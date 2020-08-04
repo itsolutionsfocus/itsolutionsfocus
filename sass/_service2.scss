@@ -3,39 +3,39 @@
 	
 	.service-section {
 		h2{
-			color: $color-dark-blue;
+			color: $black;
 			letter-spacing: 2px;
 			font-weight: 600;
 			font-size: 30px;
 		}
 		p{
-			margin-top: 18px;
+			margin-top: 0;
 			margin-bottom: 5px;
-			color: $color-dark-blue;
+			color: $black;
+			line-height: 30px;
 		}
 		.service{
-			padding:0px 30px 40px 15px;
-			box-sizing: border-box;
+			// padding:0px 30px 40px 15px;
+			// box-sizing: border-box;
 			li {
 				text-align: center;
-				color: #d9161d;
+				color: $light-grey;
 				font-size: 30px;
+				i{
+					position: relative;
+					top: -5px;
+				}
 			}
 			h5{
-				font-size: 16px;
+				font-size: 18px;
 				font-weight: 600;
 				
 			}
-			p{
-				font-size: 13px;
-
-			}
 			a{
-				color: $color-blue !important;
-				font-weight: 500;
-
-				
-
+				color: $brand !important;
+				font-weight: 600;
+				margin-top: 5px;
+				display: inline-block;
 				&:hover{
 					color:none !important;
 
@@ -52,9 +52,13 @@
 				padding: 10px 105px;
 			}
 			.serv{
-				list-style:none;
+				list-style: none;
 				text-align: left;
-				font-size: 14px;
+				border: 2px solid #f6f6f6;
+				border-top: 0;
+				border-left: 0;
+				padding-bottom: 30px;
+				padding-top: 30px;
 				&:hover{
 					
 					h5, p, a{
