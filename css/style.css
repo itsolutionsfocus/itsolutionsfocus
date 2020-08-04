@@ -348,10 +348,11 @@ body {
     #services .service-section .service p {
       font-size: 13px; }
     #services .service-section .service a {
-      color: #1bb1dc !important;
+      color: #525f73 !important;
       font-weight: 500; }
       #services .service-section .service a:hover {
-        color: none !important; }
+        color: #d9161d !important;
+        transition: 0.3s; }
     #services .service-section .service .text-info {
       letter-spacing: 2px;
       margin-top: 5px; }
@@ -604,7 +605,7 @@ body {
         font-size: 16px;
         color: #164565; }
         #contact .contact-form .form-group .form-control:focus {
-          border-color: #ffffff; }
+          border-color: none !important; }
     #contact .contact-form .form-btn .fit-default-btn {
       font-size: 13px;
       border-radius: 200px;
