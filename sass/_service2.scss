@@ -34,20 +34,22 @@
 			a{
 				color: $brand !important;
 				font-weight: 600;
-				margin-top: 5px;
+				margin-top: 0px;
 				display: inline-block;
 				i{
 					font-size: 20px;
+					position: relative;
+					right: 0;
+					content: "";
 					transition-timing-function: ease-in;
 					transition: 0.5s;
 				}
 				&:hover{
 					color:#d9161d !important;
-					transition:0.3s;
-					padding:10px;
+					transition:0.5s;
 					i{
 						
-						padding-left: 5px;
+						padding-left: 8px;
 						transition-timing-function: ease-out;
 						transition: 0.5s;
 						transform: translateY(0);
@@ -92,4 +94,4 @@
 
 
 }	
-}
+

@@ -11,13 +11,16 @@
   font-weight: 600 !important;
   margin-bottom: 8px;
   text-align: center;
-  color: $color-dark-blue;
+  color: #000;
   letter-spacing: 2px;
   font-size: 30px;
 }
 #testimonials .section-header p{
   margin: 15px 0px;
-  color: $color-dark-blue;
+  color: #000;
+}
+#testimonial .owl-carousel .testimonial-item{
+  color: #000 !important;
 }
 
 
@@ -44,13 +47,14 @@
 #testimonials .testimonial-item h3 {
   font-size: 20px;
   margin: 10px 0 5px 0;
-  color: $color-dark-blue;
+  color: #000;
+  font-weight: 500;
   margin-left: 140px;
 }
 
 #testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: $color-dark-blue;
+  color: #000;
   margin: 0 0 15px 0;
   margin-left: 140px;
 }

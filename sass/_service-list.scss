@@ -1,7 +1,7 @@
 #service-list{
 	padding: 60px 0px;
 	h4{
-		color: $color-dark-blue;
+		color: #000;
 		letter-spacing: 2px;
 		font-size: $head-sub2;
 		font-weight:800;
@@ -11,16 +11,16 @@
 			li{
 				list-style: none;
 				font-size: 23px;
-				color: $color-dark-blue;
+				color: #000;
 				text-align: center;
 				margin-right: 20px;
 				i{
-					color:$color-f2;
+					color:$light-grey;
 
 				}
 			}
 			h5{
-				color: $color-dark-blue;
+				color: #000;
 				letter-spacing: 2px;
 				font-weight: 600;
 				font-size: 18px;
