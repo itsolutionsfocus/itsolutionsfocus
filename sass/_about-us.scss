@@ -1,11 +1,11 @@
 #about-us{
-	padding: 60px 0px;
+	
 	.about-us-section{
 		h2{
 			color: #000;
 			letter-spacing: 2px;
 			font-weight: 600;
-			font-size: $head-main;
+			font-size: 29px;
 		}
 		h5{
 			color:#000;
@@ -18,12 +18,13 @@
 		}
 		.about-us-img{
 			img{
-				width: 80%;
+				width: 100%;
 			}
 
 		}
 	}
 	.section-two{
+		margin-top: 5px;
 		p{
 			margin-top: 0;
 			color:#000;

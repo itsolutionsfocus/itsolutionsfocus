@@ -1,11 +1,11 @@
 #about{
-	padding: 0px  0px 60px 0px;	
+	/*padding: 0px  0px 60px 0px;	*/
 	.about-section {
 		h2{
 			color: $black;
 			letter-spacing: 2px;
 			font-weight: 600;
-			font-size: $head-main;
+			font-size: 29px;
 		}
 		p{
 			margin: 15px 0px;
@@ -20,7 +20,7 @@
 
 		}
 		.right-a{
-			padding-top: 80px;
+			padding: 60px 0px;
 
 		}
 		.left-a{

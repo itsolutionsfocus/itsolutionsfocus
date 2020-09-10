@@ -70,18 +70,164 @@ body{
 			border: 2px solid $brand;
 		}
 		&:focus{
-			outline:none;
+			outline:none;	
+		}
+	}
+	@media (max-width: 576px){
+		.custom{
+			padding-left: 36px !important;
+			padding-right: 33px !important;
+		}
+		.banner-section {
+			padding:0 !important;
+		}
+		.left-b{
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+			padding-top: 60px !important;
+		}
+		.right b{
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+		}
+		.left-b h6{
+			font-size: 14px !important;
+		}
+		.left-b h1{
+			font-size: 31px !important;
+		}
+		.banner-section .banner-img {
+			text-align: center !important;
+			padding-top: 60px !important;;
+		}
+		.banner-section .banner-img img{
+			width: 80% !important;	
+		}
+		#about .about-section .about-img img {
+			width: 100% !important;
+		}
+		.about-section h2{
+			font-size: 22px !important;
+		}
+		#about .about-section .right-a{
+			padding: 20px 0px 60px 0px !important;
+		}
+		#services .service-section .serv{
+			padding-left: 15px !important;
+			padding-right: 15px !important;
+		}
+		#services .service-section .service li{
+			text-align: left !important;
+		}
+		.service-section .service li i{
+			left: -5px !important;
+		}
+		#services{
+			padding-bottom: 30px !important;
+		}
+		#contact .small-c{
+			margin-left: 0 !important;
+			padding-left: 0 !important;
+			padding-right: 0  !important;
+			margin-top: 25px;
+		}
+		#contact .phone-section{
+			margin-top: 15px;
+			margin-left: 0 !important;
+		}
+		.lg-3{
+			margin-left: 0 !important;
+		}
+
+	}
+	@media (max-width: 767px) {
+		.custom{
+			padding-left: 36px !important;
+			padding-right: 33px !important;
 		}
 	}
 	@media (max-width: 576px) {
 		.request-bt{
 			display: flex;
-
 		}	
 		.subscribe-btn{
 			display: flex;
+			padding-left: 0 !important;
 		}	
+		#request .request-section button{
+			margin-top: 15px !important;
+		}
+
+		#subscribe .subscribe-section .subscribe-btn{
+			margin-top: 23px !important;
+		}
+		#clients .clients-section h2{
+			font-size: 29px ! important;
+		}
 	}
+	@media (max-width: 992px) {
+		.breadcrumbs {
+			margin-top: 58px;
+		}
+		.banner-section{
+			padding: 40px 0px 60px 0;
+
+		}
+	}
+	@media (max-width: 767px) {
+		#testimonials .testimonial-item {
+			text-align: center;
+		}
+
+	}
+	@media (max-width: 767px) {
+		#testimonials .testimonial-item .testimonial-img {
+			float: none;
+			margin: auto;
+		}
+	}
+	@media (min-width: 992px) {
+		#testimonials .testimonial-item p {
+			width: 80%;
+		}
+	}
+
+	@media (max-width: 767px) {
+		#testimonials .testimonial-item h3, #testimonials .testimonial-item h4, #testimonials .testimonial-item p {
+			margin-left: 0;
+		}
+		.right b{
+			padding-left: 0px !important;
+			padding-right: 0px !important;
+		}
+		.banner-section .banner-img {
+			text-align: center !important;
+			padding-top: 60px !important;;
+		}
+		.banner-section .banner-img img{
+			width: 80% !important;	
+		}
+		.banner-section {
+			padding:0 !important;
+		}
+		#about .about-section .about-img img {
+			width: 100% !important;
+		}
+		#about .about-section .right-a{
+			padding: 20px 0px 60px 0px !important;
+		}
+		#services .service-section .service li{
+			text-align: left !important;
+		}
+		.service-section .service li i{
+			left: -5px !important;
+		}
+		#services{
+			padding-bottom: 30px !important;
+		}
+	}
+
+
 	.border-right-none-lg{
 		border-right: none !important;
 	}

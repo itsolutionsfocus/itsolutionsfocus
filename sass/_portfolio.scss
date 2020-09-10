@@ -3,6 +3,10 @@
 #portfolio {
 	background: $bg-light-blue;
 	padding: 60px 0;
+	&.section-bg{
+		background: none !important;
+
+	}
 	header{
 		h2{
 			color: $black;
