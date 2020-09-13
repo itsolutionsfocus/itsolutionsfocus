@@ -74,7 +74,7 @@
 									<h5>
 										Logo and identity
 									</h5>
-									<p>Customized , Hand-crafted, Responsive user friendly website design to attract more clients and business leads</p>
+									<p>Our brand identity services will help in taking your business to the highest level of success.The best way to do  . .</p>
 									<a href="#">Read More<i class="fa fa-angle-right"></i></a>
 								</div>
 							</div>
@@ -90,7 +90,7 @@
 									<h5>
 										Website Design
 									</h5>
-									<p>Customized , Hand-crafted, Responsive user friendly website design to attract more clients and business leads</p>
+									<p>A smartly designed website is undoubtedly the most vital aspect a business owner needs to enter . .</p>
 									<a href="#">Read More<i class="fa fa-angle-right"></i></a>
 								</div>
 							</div>
@@ -108,7 +108,7 @@
 									<h5>	
 										Website Development
 									</h5>
-									<p>Customized , Hand-crafted, Responsive user friendly website design to attract more clients and business leads</p>
+									<p>Make your business 24*7 available & reach without boundaries. We FOCUS on designing websites that match the . .</p>
 									<a href="#">Read More<i class="fa fa-angle-right"></i></a>
 								</div>
 							</div>
@@ -133,7 +133,7 @@
 								<h5>
 									Mobile Apps
 								</h5>
-								<p>Customized , Hand-crafted, Responsive user friendly website design to attract more clients and business leads</p>
+								<p>Make your ideas come to life on the mobile platform. Grow your business revenue with our quality Android . .</p>
 								<a href="#">Read More<i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>
@@ -151,7 +151,7 @@
 								<h5>
 									E-Commerce Website
 								</h5>
-								<p>Customized , Hand-crafted, Responsive user friendly website design to attract more clients and business leads</p>
+								<p>We offer professional ecommerce website development at reasonable prices. Ecommerce or electronic . .</p>
 								<a href="#">Read More<i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>
@@ -169,7 +169,7 @@
 								<h5>
 									Software development
 								</h5>
-								<p>Customized , Hand-crafted, Responsive user friendly website design to attract more clients and business leads</p>
+								<p>We are using the latest technologies, we deliver software that puts power in your hands. Focus IT solutions will deliver . .</p>
 								<a href="#">Read More<i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>
@@ -190,7 +190,7 @@
 								<h5>
 									CMS Website
 								</h5>
-								<p>Customized , Hand-crafted, Responsive user friendly website design to attract more clients and business leads</p>
+								<p>The first major reason is that CMS provides more functionality than custom-based websites. We ensure . .</p>
 								<a href="#">Read More<i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>
@@ -207,7 +207,7 @@
 								<h5>
 									Digital Marketing
 								</h5>
-								<p>Customized , Hand-crafted, Responsive user friendly website design to attract more clients and business leads</p>
+								<p>Digital Marketing is the marketing of products or services through different digital media via the internet to reach . . </p>
 								<a href="#">Read More<i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>
@@ -224,7 +224,7 @@
 								<h5>
 									Dynamic website
 								</h5>
-								<p>Customized , Hand-crafted, Responsive user friendly website design to attract more clients and business leads</p>
+								<p>Dynamic web design makes it easy to add and update a variety of content, such as text, images, videos, and product . .</p>
 								<a href="#">Read More<i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>
@@ -246,7 +246,7 @@
 								<h5>
 									Email Marketing
 								</h5>
-								<p>LCustomized , Hand-crafted, Responsive user friendly website design to attract more clients and business leads</p>
+								<p>Email marketing is a low cost way to reach new people. You can send emails to as many users as possible who . .</p>
 								<a href="#">Read More<i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>
@@ -266,7 +266,7 @@
 								<h5>
 									Search Engine Optimization
 								</h5>
-								<p>Customized , Hand-crafted, Responsive user friendly website design to attract more clients and business leads</p>
+								<p>SEO (Search engine optimization) is the process of increasing the traffic on a website by improving the visibility of . .</p>
 								<a href="#">Read More<i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>
@@ -285,7 +285,7 @@
 								<h5>
 									Search Engine Marketing
 								</h5>
-								<p>Customized , Hand-crafted, Responsive user friendly website design to attract more clients and business leads</p>
+								<p>Search engine marketing (SEM) is also a technology to generate traffic on your website. We carry out the marketing . .</p>
 								<a href="#">Read More<i class="fa fa-angle-right"></i></a>
 							</div>
 						</div>

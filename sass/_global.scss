@@ -140,6 +140,10 @@ body{
 		}
 
 	}
+	.line-controll{
+		line-height: 30px;
+
+	}
 	@media (max-width: 767px) {
 		.custom{
 			padding-left: 36px !important;
@@ -148,7 +152,7 @@ body{
 	}
 	@media (max-width: 576px) {
 		.request-bt{
-			display: flex;
+			display: flex;	
 		}	
 		.subscribe-btn{
 			display: flex;

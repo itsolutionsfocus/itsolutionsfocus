@@ -215,6 +215,9 @@ body {
 
   .lg-3 {
     margin-left: 0 !important; } }
+.line-controll {
+  line-height: 30px; }
+
 @media (max-width: 767px) {
   .custom {
     padding-left: 36px !important;
@@ -816,5 +819,10 @@ body {
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%; } }
+#design-text {
+  padding: 60px 0px; }
+
+#logo-text {
+  padding: 60px 0px; }
 
 /*# sourceMappingURL=style.css.map */
