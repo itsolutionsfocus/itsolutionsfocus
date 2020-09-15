@@ -1,9 +1,9 @@
 <?php 
 $pages = array();
-$pages["Home"] = "index.php";
+$pages["Home"] = "/";
 $pages["About us"] = "about-us.php";
 $pages["Services"] = ['Logo & Identity'=>'logo-identity.php','Website Design'=>'website-design.php','Website Development'=>'website-development.php','E-Commerce Website'=>'e-commerce.php','Dynamic website'=>'dynamic-website.php','CMS Website'=>'cms-website.php','Mobile Apps'=>'mobile-apps.php','Search Engine Optimization'=>'seo.php','Search Engine Marketing'=>'sem.php','Email Marketing'=>'email-marketing.php','Digital Marketing'=>'digital-marketing.php','Software development'=>'software-development.php'];
-$pages["Products"] = "Products.php";
+// $pages["Products"] = "Products.php";
 $pages["Portfolio"] = "Portfolio.php";
 $pages["Contact us"] = "contact.php";
 ?>
@@ -17,7 +17,21 @@ $pages["Contact us"] = "contact.php";
 	<meta name="keywords" content=""><!-- Separate with commas -->
 	<meta name="author" content="">
 	<meta name="language" content="English">
-	<title>Best website development company Wayanad | Digital Marketing Wayanad | SEO | Web design | Graphic design</title>
+	
+	<?php 
+	if($activePage == 'about-us.php'){
+		$add_seo_meta = 'about.php';
+	}elseif ($activePage == 'index.php') {
+		$add_seo_meta = 'index.php';
+	}elseif ($activePage == '') {
+		$add_seo_meta = 'default.php';
+	}else {
+		$add_seo_meta = 'default.php';
+	}
+	// echo $add_seo_meta;die;
+	include_once 'meta/'.$add_seo_meta; 
+
+	?>
 	<!---favicon--->
 	<link rel="shortcut icon" href="https://focus-its.com/images/fav.png" type="image/x-icon"/>
 	<!---Font awesome--->
@@ -42,7 +56,7 @@ $pages["Contact us"] = "contact.php";
 
 			<nav class="navbar navbar-expand-lg navbar-light p-0">
 				<div class="container-fluid custom">
-					<a href="index.php" class="focus-logo" ><img src="https://focus-its.com/images/logo.png" ></a>
+					<a href="/" class="focus-logo" ><img src="https://focus-its.com/images/logo.png" ></a>
 
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -52,7 +66,7 @@ $pages["Contact us"] = "contact.php";
 						<ul class="navbar-nav ml-auto menu-items">
 							<?php
 // echo $activePage;die;
-							 foreach($pages as $title=>$url):
+							foreach($pages as $title=>$url):
 								if(!is_array($url)){
 									?>
 

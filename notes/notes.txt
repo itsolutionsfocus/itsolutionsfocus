@@ -1,3 +1,0 @@
-notes & links about focus website:-
-
-https://css-tricks.com/almanac/properties/t/transition/ ---transition property link---
