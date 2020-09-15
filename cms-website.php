@@ -20,11 +20,15 @@
 	<div class="container-fluid custom">
 		<div class="row service-cms m-0">
 
-			<div class="col-lg-6 pl-0 pt-5 pb-0 ">
+				<div class="col-lg-6">
+				<img src="images/logo-identity.jpg"  alt="img">
+			</div>
 
-				<h2>CMS Website</h2>
+			<div class="col-lg-6">
 
-				<p class="mb-0">The first major reason is that CMS provides more functionality than custom-based websites. We ensure best desired output and maximum returns on investment irrespective of the size of project. A CMS or 'Content Management System' literally allows you to control and manage the content of a website.
+				<!-- <h2>CMS Website</h2> -->
+
+				<p class="mb-0 line-controll">The first major reason is that CMS provides more functionality than custom-based websites. We ensure best desired output and maximum returns on investment irrespective of the size of project. A CMS or 'Content Management System' literally allows you to control and manage the content of a website.
 					We have CMS website development experts who make customization very simple and easy to understand. Our goal is to help you understand the content management system.<br>
 					We offer an easy-to-use visual interface website for everyone or for our clients. Back-end content management systems, such as WordPress, and custom dynamic websites. We will provide to you enable login directly to your own website with a secure username and password similar to Gmail or Yahoo, and you can edit web content directly.
 
@@ -33,9 +37,7 @@
 				</p>
 				<!-- <button type="button" class="btn btn-primary primary-fit-btn ">LEARN MOREE</button> -->
 			</div>
-			<div class="col-lg-6 pr-0 about-us-img ">
-				<img src="images/about-us.jpg"  alt="img">
-			</div>
+			
 
 
 		</div>

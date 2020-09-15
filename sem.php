@@ -17,11 +17,15 @@
 	<div class="container-fluid custom">
 		<div class="row service-sem m-0">
 
-			<div class="col-lg-6 pl-0 pt-5 pb-0 ">
+			<div class="col-lg-6 pr-0 about-us-img ">
+				<img src="images/logo-identity.jpg"  alt="img">
+			</div>
 
-				<h2>Search Engine Marketing</h2>
+			<div class="col-lg-6">
 
-				<p class="mb-0">Search engine marketing (SEM) is also a technology to generate traffic on your website. We carry out the marketing specified in the Google Webmaster Guidelines, and our main mission is to find your website on Google, which is the basis of the marketing that Google Insights considers. As one of the best SEO companies in Kerala, we regularly update and post content to keep your web page interesting, and keep a large number of visitors following your website.<br>
+				<!-- <h2>Search Engine Marketing</h2> -->
+
+				<p class="mb-0 line-controll">Search engine marketing (SEM) is also a technology to generate traffic on your website. We carry out the marketing specified in the Google Webmaster Guidelines, and our main mission is to find your website on Google, which is the basis of the marketing that Google Insights considers. As one of the best SEO companies in Kerala, we regularly update and post content to keep your web page interesting, and keep a large number of visitors following your website.<br>
 					keep a large number of visitors following your website.
 					SEM is part of the digital marketplace, and digital marketing is becoming an important part of website marketing or web advertising. Search engine marketing is no substitute for other promotional activities, especially considering that people often ignore search ads. Search engine marketing also includes managing your online reputation and other online marketing ventures.
 					
@@ -29,9 +33,7 @@
 				</p>
 				<!-- <button type="button" class="btn btn-primary primary-fit-btn ">LEARN MOREE</button> -->
 			</div>
-			<div class="col-lg-6 pr-0 about-us-img ">
-				<img src="images/about-us.jpg"  alt="img">
-			</div>
+			
 
 
 		</div>

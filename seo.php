@@ -17,20 +17,22 @@
 	<div class="container-fluid custom">
 		<div class="row service-seo m-0">
 
-			<div class="col-lg-6 pl-0 pt-5 pb-0 ">
+			<div class="col-lg-6">
+				<img src="images/logo-identity.jpg"  alt="img">
+			</div>
 
-				<h2>Search Engine Optimization</h2>
+			<div class="col-lg-6">
 
-				<p class="mb-0">SEO (Search engine optimization) is the process of increasing the traffic on a website by improving the visibility of a website on a search engine. We focus on increasing conversions, repeating traffic, and creating more brand loyalty online. Simply put, SEO techniques are dedicated to ensuring that a website looks high on a search engine result page.<br>
+				<!-- 	<h2>Search Engine Optimization</h2> -->
+
+				<p class="mb-0 line-controll">SEO (Search engine optimization) is the process of increasing the traffic on a website by improving the visibility of a website on a search engine. We focus on increasing conversions, repeating traffic, and creating more brand loyalty online. Simply put, SEO techniques are dedicated to ensuring that a website looks high on a search engine result page.<br>
 					It’s SEO, which gets your targeted customers first to your website and not your competitors. Our solutions allow our clients to reduce delays, turn faster and execute in real time. Our team members understand the wonders of the Internet and aim to become a leader in our outsourcing marketing services such as online marketing, digital marketing, Google Advertising Word and Google Advertising Sense.
 					
 
 				</p>
 				<!-- <button type="button" class="btn btn-primary primary-fit-btn ">LEARN MOREE</button> -->
 			</div>
-			<div class="col-lg-6 pr-0 about-us-img ">
-				<img src="images/about-us.jpg"  alt="img">
-			</div>
+
 
 
 		</div>

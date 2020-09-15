@@ -17,19 +17,20 @@
 	<div class="container-fluid custom">
 		<div class="row service-development m-0">
 
-			<div class="col-lg-6 pl-0 pt-5 pb-0 ">
+			<div class="col-lg-6">
+				<img src="images/logo-identity.jpg"  alt="img">
+			</div>
 
-				<h2>Website Development</h2>
+			<div class="col-lg-6">
+			<!-- 	<h2>Website Development</h2> -->
 
-				<p class="mb-0">Make your business 24*7 available & reach without boundaries. We FOCUS on designing websites that match the latest development technologies, HTML5, CSS3, SASS, jQuery etc. The responsiveness of a website nowadays is not optional, People browse the internet on their tablets, smartphones, and laptops. Our expert development team works with the best technology and best practices, and our designers focus on the various elements in great detail.  Once the client approves the design, our team of web designers gets the website ready using the same shapes, patterns, colors, and animations as the mock-up.<br>
+				<p class="m-0 line-controll">Make your business 24*7 available & reach without boundaries. We FOCUS on designing websites that match the latest development technologies, HTML5, CSS3, SASS, jQuery etc. The responsiveness of a website nowadays is not optional, People browse the internet on their tablets, smartphones, and laptops. Our expert development team works with the best technology and best practices, and our designers focus on the various elements in great detail.  Once the client approves the design, our team of web designers gets the website ready using the same shapes, patterns, colors, and animations as the mock-up.<br>
 					The websites we develop are technically strong with solid design, well-coded functions and robust security features. Our web development services will provide you with effective online business management, Faster communication with customers and suppliers supporting increased online leads and sales. Also recommends you for reduced operating cost and resource utilization to run your business.
 
 				</p>
 				<!-- <button type="button" class="btn btn-primary primary-fit-btn ">LEARN MOREE</button> -->
 			</div>
-			<div class="col-lg-6 pr-0 about-us-img ">
-				<img src="images/about-us.jpg"  alt="img">
-			</div>
+			
 
 
 		</div>
