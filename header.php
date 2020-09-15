@@ -1,11 +1,11 @@
 <?php 
 $pages = array();
 $pages["Home"] = "/";
-$pages["About us"] = "about-us.php";
-$pages["Services"] = ['Logo & Identity'=>'logo-identity.php','Website Design'=>'website-design.php','Website Development'=>'website-development.php','E-Commerce Website'=>'e-commerce.php','Dynamic website'=>'dynamic-website.php','CMS Website'=>'cms-website.php','Mobile Apps'=>'mobile-apps.php','Search Engine Optimization'=>'seo.php','Search Engine Marketing'=>'sem.php','Email Marketing'=>'email-marketing.php','Digital Marketing'=>'digital-marketing.php','Software development'=>'software-development.php'];
-// $pages["Products"] = "Products.php";
-$pages["Portfolio"] = "Portfolio.php";
-$pages["Contact us"] = "contact.php";
+$pages["About us"] = "about-us";
+$pages["Services"] = ['Logo & Identity'=>'logo-identity','Website Design'=>'website-design','Website Development'=>'website-development','E-Commerce Website'=>'e-commerce','Dynamic website'=>'dynamic-website','CMS Website'=>'cms-website','Mobile Apps'=>'mobile-apps','Search Engine Optimization'=>'seo','Search Engine Marketing'=>'sem','Email Marketing'=>'email-marketing','Digital Marketing'=>'digital-marketing','Software development'=>'software-development'];
+// $pages["Products"] = "Products";
+$pages["Portfolio"] = "portfolio";
+$pages["Contact us"] = "contact";
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,17 +19,17 @@ $pages["Contact us"] = "contact.php";
 	<meta name="language" content="English">
 	
 	<?php 
-	if($activePage == 'about-us.php'){
-		$add_seo_meta = 'about.php';
-	}elseif ($activePage == 'index.php') {
-		$add_seo_meta = 'index.php';
+	if($activePage == 'about-us'){
+		$add_seo_meta = 'about';
+	}elseif ($activePage == 'index') {
+		$add_seo_meta = 'index';
 	}elseif ($activePage == '') {
-		$add_seo_meta = 'default.php';
+		$add_seo_meta = 'default';
 	}else {
-		$add_seo_meta = 'default.php';
+		$add_seo_meta = 'default';
 	}
 	// echo $add_seo_meta;die;
-	include_once 'meta/'.$add_seo_meta; 
+	include_once 'meta/'.$add_seo_meta. '.php'; 
 
 	?>
 	<!---favicon--->

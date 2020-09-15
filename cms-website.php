@@ -1,4 +1,4 @@
-<?php $activePage = "cms-website.php";?>
+<?php $activePage = "cms-website";?>
 <?php include 'header.php';?>
 
 <!-- ======= Breadcrumbs ======= -->

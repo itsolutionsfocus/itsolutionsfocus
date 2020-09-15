@@ -1,4 +1,4 @@
-<?php $activePage = "dynamic-website.php";?>
+<?php $activePage = "dynamic-website";?>
 <?php include 'header.php';?>
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs bruds">

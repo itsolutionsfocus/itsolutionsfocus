@@ -1,4 +1,4 @@
-<?php $activePage = "software-development.php";?>
+<?php $activePage = "software-development";?>
 <?php include 'header.php';?>
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs bruds">

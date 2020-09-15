@@ -1,4 +1,4 @@
-<?php $activePage = "logo-identity.php";?>
+<?php $activePage = "logo-identity";?>
 <?php include 'header.php';?>
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs bruds">

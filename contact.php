@@ -1,4 +1,4 @@
-<?php $activePage = "contact.php";?>
+<?php $activePage = "contact";?>
 <?php include 'header.php';?>
 <section id="breadcrumbs" class="breadcrumbs bruds">
 	<div class="container-fluid pl-5 pr-5 ">

@@ -1,4 +1,4 @@
-<?php $activePage = "mobile-apps.php";?>
+<?php $activePage = "mobile-apps";?>
 <?php include 'header.php';?>
 <!-- ======= Breadcrumbs ======= -->
 <section id="breadcrumbs" class="breadcrumbs bruds">

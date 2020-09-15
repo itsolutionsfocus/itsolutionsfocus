@@ -1,4 +1,4 @@
-<?php $activePage = "index.php";?>
+<?php $activePage = "index";?>
 <?php include 'header.php';?>
 <!-- ======= banner Section ======= -->
 <section id="banner" class="site-container">

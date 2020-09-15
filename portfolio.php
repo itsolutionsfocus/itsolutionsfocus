@@ -1,4 +1,4 @@
-<?php $activePage = "about-us.php";?>
+<?php $activePage = "about-us";?>
 <?php include 'header.php';?>
 
 <section id="breadcrumbs" class="breadcrumbs bruds">
