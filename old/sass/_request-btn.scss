@@ -1,0 +1,61 @@
+#request{
+	background-color: $bg-dark-blue;
+	padding:40px 0px;
+	color:$color-white;
+	.request-section{
+		h4{
+			letter-spacing: 2px;
+			font-weight: 600;
+			font-size: 20px;
+			span{
+				font-weight: 600;
+			}
+		}
+		p{
+			margin: 0;
+			font-size: 16px;
+			line-height: 30px;
+		}
+		button{
+			font-size: 13px;
+			border-radius: 200px;
+			background:none;
+			border:2px solid $color-white;
+			color: $color-white;
+			padding: 12px 20px;
+			letter-spacing: 1px;
+			font-weight: 600;
+			float: right;
+			margin-top: 5px;
+			transition-timing-function:ease-out;
+			transition: 0.5s;
+			
+			
+			&:hover{
+				/*background-color:$bg-dark-blue !important;
+				color:$color-white !important;*/
+				/*box-shadow: 0px 2px 9px $bg-hash;	*/
+				/*border:2px solid $bg-dark-blue !important;
+				transition: box-shadow.5s ease-in;*/
+				color:#5b5c5c;
+				background-color: $bg-white;
+				transition-timing-function: ease-in;
+				transition: 0.5s;
+				
+			}
+
+		}
+
+	} 
+
+
+
+}
+
+
+
+
+
+
+
+

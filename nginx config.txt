@@ -1,0 +1,71 @@
+server {
+#        listen 80;
+
+#        listen 443;
+
+#       ssl on;
+#       ssl_certificate /etc/letsencrypt/live/hr.api.wallpostsoftware.com/fullchain.pem;
+#       ssl_certificate_key /etc/letsencrypt/live/hr.api.wallpostsoftware.com/privkey.pem;
+
+        root /var/www/html/focusits/;
+
+        # Add index.php to the list if you are using PHP
+        index index.php index.html index.htm index.nginx-debian.html;
+
+        server_name www.focus-its.com;
+
+        location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                #try_files $uri $uri/ =404;
+                #try_files $uri $uri/ /index.php?$query_string;
+       		try_files $uri $uri.html $uri/ @extensionless-php;
+	}
+
+        # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+        #
+        location ~ \.php$ {
+                include snippets/fastcgi-php.conf;
+
+                # With php7.0-cgi alone:
+                #fastcgi_pass 127.0.0.1:9000;
+                # With php7.0-fpm:
+                fastcgi_pass unix:/run/php/php7.3-fpm.sock;
+        }
+
+        # deny access to .htaccess files, if Apache's document root
+        # concurs with nginx's one
+        #
+        location ~ /\.ht {
+                deny all;
+        }
+        location ~ /.well-known {
+                allow all;
+        }
+	
+	location @extensionless-php {
+    		rewrite ^(.*)$ $1.php last;
+	}
+
+    server_name focus-its.com; # managed by Certbot
+
+    listen [::]:443 ssl ipv6only=on; # managed by Certbot
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/focus-its.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/focus-its.com/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}server {
+    if ($host = focus-its.com) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+	listen 80 ;
+        listen [::]:80 ;
+    server_name focus-its.com;
+    return 404; # managed by Certbot
+
+
+}

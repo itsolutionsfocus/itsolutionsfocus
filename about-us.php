@@ -15,33 +15,34 @@
 </section>
 
 <!-- section header -->
-<section id="about-us" class="site-container">
+<section id="about-us" class="site-container sections-gap-tb">
 	<div class="container-fluid custom">
 		<div class="row about-us-section m-0">
 
-			<div class="col-lg-6 pl-0 pt-5 pb-0 ">
-
-				<h2>ABOUT FOCUS IT SOLUTIONS</h2>
-
-				<p class="mb-0">Focus IT Solutions is a leading IT services and business technology company offering high quality software services, web application development and online marketing at affordable rates. We help businesses reach the full potential of the web. Focus It Solutions delivers high-quality IT solutions to businesses.
-
-
-					We offer powerful and effective websites that all businesses can afford. We have designed our entire process and products around everything needed when starting a small business. We ensure that working with us is always quick, easy and hassle free.<br>
-
-
-					We offer powerful and effective websites that all businesses can afford. We have designed our entire process and products around everything needed when starting a small business. We ensure that working with us is always quick, easy and hassle free.<br>
-
-
-					We work with your budget and goals. We use technology to create results that will grow our clients’ businesses
-
-
-				</p>
-				<!-- <button type="button" class="btn btn-primary primary-fit-btn ">LEARN MOREE</button> -->
+			<div class="col-lg-4">
+				<img src="images/about-us.png" class="img-fluid"  alt="Focus IT Solutions Services">
 			</div>
-			<div class="col-lg-6 pr-0 about-us-img ">
-				<img src="images/about-us.jpg"  alt="img">
-			</div>
+			<div class="col-lg-8 d-flex">
+				<div class="align-self-center pr-3 pl-3">
 
+					<!-- <h2>ABOUT FOCUS IT SOLUTIONS</h2> -->
+
+					<p class="mb-0">
+						Focus IT Solutions is a leading IT services and business technology company offering high quality software services, web application development and online marketing at affordable rates. We help businesses reach the full potential of the web. Focus It Solutions delivers high-quality IT solutions to businesses.
+					</p>
+					<p>
+						We offer powerful and effective websites that all businesses can afford. We have designed our entire process and products around everything needed when starting a small business. We ensure that working with us is always quick, easy and hassle free.
+					</p>
+					<p>
+						We offer powerful and effective websites that all businesses can afford. We have designed our entire process and products around everything needed when starting a small business. We ensure that working with us is always quick, easy and hassle free.
+					</p>
+					<p>
+						We work with your budget and goals. We use technology to create results that will grow our clients’ businesses
+					</p>
+					<!-- <button type="button" class="btn btn-primary primary-fit-btn ">LEARN MOREE</button> -->
+				</div>
+			</div>
+			
 
 		</div>
 		<!-- <div class="row">
@@ -65,27 +66,7 @@
 
 
 </section>
-<section id="request" class="site-container"> 
-	<div class="container-fluid custom">
-		<div class="row request-section m-0">
-			<div class="col-lg-8 col-md-7 col-sm-12 request p-0">
-
-				<h4>
-					<span>Let's Get</span> <span>your project started</span>
-
-				</h4>
-				<p>
-					We will help you to achieve your goals and to grow your business.
-				</p>
-			</div>
-
-			<div class="col-lg-4 col-md-5 col-sm-12 request-bt p-0">
-				<button type="button" class="btn  light-fit-btn">REQUEST A QUOTE</button>
-			</div>
-		</div>
-	</div>
-</section>
-
+<?php include 'request-banner.php';?>
 <!-- ======= Testimonials Section ======= -->
 <section id="testimonials" class="testimonials">
 	<div class="container" data-aos="fade-up">
@@ -93,7 +74,7 @@
 		<div class="owl-carousel testimonials-carousel">
 
 			<div class="testimonial-item">
-				<img src="images/ft.jpg" class="testimonial-img" alt="">
+				<img src="images/riyas.jpg" class="testimonial-img" alt="">
 				<h3>Riyas Kh</h3>
 				<h4>EFS Logistics Managing Director</h4>
 				<p>
@@ -104,7 +85,7 @@
 			</div>
 
 			<div class="testimonial-item">
-				<img src="images/ft.jpg" class="testimonial-img" alt="">
+				<img src="images/aparna.jpg" class="testimonial-img" alt="Aparna Viswanathan">
 				<h3>Aparna Viswanathan</h3>
 				<h4>Zocio Managing Director</h4>
 				<p>
@@ -115,8 +96,8 @@
 			</div>
 
 			<div class="testimonial-item">
-				<img src="images/ft.jpg" class="testimonial-img" alt="">
-				<h3>Fazil T</h3>
+				<img src="images/fasil.jpg" class="testimonial-img" alt="">
+				<h3>Fasil T</h3>
 				<h4>Suit Gallery</h4>
 				<p>
 					<i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -126,7 +107,7 @@
 			</div>
 
 			<div class="testimonial-item">
-				<img src="images/ft.jpg" class="testimonial-img" alt="">
+				<img src="images/prashanth.jpg" class="testimonial-img" alt="">
 				<h3>Prasanth Konoth</h3>
 				<h4>Zocio Head – Training</h4>
 				<p>

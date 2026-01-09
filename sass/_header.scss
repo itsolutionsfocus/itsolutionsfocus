@@ -1,79 +1,302 @@
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
 #header {
-	background: $bg-white;
+	background: #fff;
 	transition: all 0.5s;
 	z-index: 997;
-	padding: 15px 0;
-	top: 20px;
-	&.header-transparent {
-		background: transparent;
-	}
-	&.addition{
-		top: 10px !important;
-	}
-	&.header-scrolled {
-		top: 0 !important;
-		background:$bg-white;
+	padding: 10px 0;
+	top: 5px;
+}
+body.index #header {
+	top: 30px;
+}
+body.index #header.header-scrolled {
+	top: 0;
+}
+a.dropdown-item.identify {
+	font-size: 15px;
+	color: #000;
+	padding: 7px 20px;
+	font-weight: 500;
+}
+
+.dropdown-menu.show {
+	padding: 10px 0 !important;
+	background: #fff;
+	box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+	transition: ease all 0.3s;
+	transform: translate3d(-30px, 40px, 0) !important;
+}
+
+#header.header-transparent {
+	background: transparent;
+}
+
+#header.header-scrolled {
+	top: 0;
+	background: #fff;
+	box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+}
+
+#header .logo {
+	font-size: 36px;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	font-weight: 400;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+#header .logo a {
+	color: #413e66;
+}
+
+#header .logo img {
+	max-height: 40px;
+}
+
+@media (max-width: 992px) {
+	#header {
+		top: 0;
 		box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
-		.focus-logo img{
-			width: 40%;
-		}
-		.nav-link{
-			
-		}
 	}
-	
-	.menu-items {
-
-		a{
-			color: $black;
-			font-weight: 500;
-
-			&.middle{
-				
-				position: relative;
-				
-				&:before{
-					content: "";
-					position: absolute;
-					width: 0;
-					height: 2px;
-					bottom: 0;
-					left: 0;
-					background-color:#e04469;
-					visibility: hidden;
-					
-					transition: all 0.3s ease-in-out;
-				}
-				&:hover:before{
-					visibility: visible;
-					
-					width: 100%;
-					
-				}
-				
-			}
-			&:hover{
-				color:$brand;
-				transition:0.3s;
-				i{
-					color: $color-black;
-				}
-
-			}
-
-		}
-
+	#header .logo {
+		font-size: 28px;
 	}
-	.focus-logo img{
-		width: 53%;
-	}	
+	body.index #header {
+		top: 0;
+	}
 
 }
 
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Desktop Navigation */
+.main-nav {
+	/* Drop Down */
+	/* Deep Drop Down */
+}
 
+.main-nav, .main-nav * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 
+.main-nav > ul > li {
+	position: relative;
+	white-space: nowrap;
+	float: left;
+	padding-left: 30px;
+}
 
+.main-nav a {
+	display: block;
+	position: relative;
+	color: #413e66;
+	padding: 7px 0;
+	transition: 0.3s;
+	font-weight: 500;
+}
 
+.main-nav a:hover, .main-nav li:hover > a {
+	color: #e04469;
+	text-decoration: none;
+}
+#header .menu-items a.middle:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 3px;
+	bottom: 0;
+	left: 0;
+	background-color: #e5191f;
+	visibility: hidden;
+	transition: all 0.3s ease-in-out;
+}
+#header .menu-items a.middle {
+	position: relative;
+}
+#header .menu-items a.middle:hover:before {
+	visibility: visible;
+	width: 100%;
+}
+.main-nav .drop-down ul {
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: calc(100% - 30px);
+	z-index: 99;
+	opacity: 0;
+	visibility: hidden;
+	padding: 10px 0;
+	background: #fff;
+	box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+	transition: ease all 0.3s;
+}
 
+.main-nav .drop-down:hover > ul {
+	opacity: 1;
+	top: 100%;
+	visibility: visible;
+}
 
+.main-nav .drop-down li {
+	min-width: 180px;
+	position: relative;
+}
 
+.main-nav .drop-down ul a {
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: none;
+	color: #065e77;
+}
+
+.main-nav .drop-down ul a:hover, .main-nav .drop-down ul .active > a, .main-nav .drop-down ul li:hover > a {
+	color: #1bb1dc;
+}
+
+.main-nav .drop-down > a:after {
+	content: "\f107";
+	font-family: FontAwesome;
+	padding-left: 10px;
+}
+
+.main-nav .drop-down .drop-down ul {
+	top: 0;
+	left: calc(100% - 30px);
+}
+
+.main-nav .drop-down .drop-down:hover > ul {
+	opacity: 1;
+	top: 0;
+	left: 100%;
+}
+
+.main-nav .drop-down .drop-down > a {
+	padding-right: 35px;
+}
+
+.main-nav .drop-down .drop-down > a:after {
+	content: "\f105";
+	position: absolute;
+	right: 15px;
+}
+
+/* Mobile Navigation */
+.mobile-nav {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	z-index: 9999;
+	overflow-y: auto;
+	left: -260px;
+	width: 260px;
+	padding-top: 18px;
+	background: rgba(40, 38, 70, 0.8);
+	transition: 0.4s;
+}
+
+.mobile-nav * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.mobile-nav a {
+	display: block;
+	position: relative;
+	color: #fff;
+	padding: 10px 20px;
+	font-weight: 500;
+}
+
+.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+	color: #fff;
+	text-decoration: none;
+}
+.dropdown-item.active, .dropdown-item:active {
+	background-color: #e8e8e8;
+}
+
+.mobile-nav .drop-down > a:after {
+	content: "\f078";
+	font-family: FontAwesome;
+	padding-left: 10px;
+	position: absolute;
+	right: 15px;
+}
+
+.mobile-nav .active.drop-down > a:after {
+	content: "\f077";
+}
+
+.mobile-nav .drop-down > a {
+	padding-right: 35px;
+}
+
+.mobile-nav .drop-down ul {
+	display: none;
+	overflow: hidden;
+}
+
+.mobile-nav .drop-down li {
+	padding-left: 20px;
+}
+
+.mobile-nav-toggle {
+	position: fixed;
+	right: 20px;
+	top: 5px;
+	z-index: 9998;
+	border: 0;
+	background: none;
+	font-size: 24px;
+	transition: all 0.4s;
+	outline: none !important;
+	line-height: 1;
+	cursor: pointer;
+	text-align: right;
+}
+
+.mobile-nav-toggle i {
+	margin: 18px 18px 0 0;
+	color: #065e77;
+}
+
+.mobile-nav-overly {
+	width: 100%;
+	height: 100%;
+	z-index: 9997;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: rgba(40, 38, 70, 0.8);
+	overflow: hidden;
+	display: none;
+}
+
+.mobile-nav-active {
+	overflow: hidden;
+}
+
+.mobile-nav-active .mobile-nav {
+	left: 0;
+}
+
+.mobile-nav-active .mobile-nav-toggle i {
+	color: #fff;
+}
+#header .menu-items a:hover {
+	color: #e5191f;
+	transition: 0.3s;
+}
+#header .focus-logo img {
+	width: 50%;
+}

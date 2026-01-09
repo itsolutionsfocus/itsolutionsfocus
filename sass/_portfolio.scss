@@ -1,23 +1,14 @@
 /* Portfolio Section
 --------------------------------*/
+body.portfolio #portfolio {
+	background: #fff;
+}
 #portfolio {
 	background: $bg-light-blue;
 	padding: 60px 0;
 	&.section-bg{
 		background: none !important;
 
-	}
-	header{
-		h2{
-			color: $black;
-			letter-spacing: 2px;
-			font-weight: 600;
-			font-size: 30px;
-		}
-		p{
-			margin: 15px 0px;
-			color: $black;
-		}
 	}
 	#portfolio-flters {
 		padding: 0;

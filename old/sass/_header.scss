@@ -1,0 +1,79 @@
+#header {
+	background: $bg-white;
+	transition: all 0.5s;
+	z-index: 997;
+	padding: 15px 0;
+	top: 20px;
+	&.header-transparent {
+		background: transparent;
+	}
+	&.addition{
+		top: 10px !important;
+	}
+	&.header-scrolled {
+		top: 0 !important;
+		background:$bg-white;
+		box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+		.focus-logo img{
+			width: 40%;
+		}
+		.nav-link{
+			
+		}
+	}
+	
+	.menu-items {
+
+		a{
+			color: $black;
+			font-weight: 500;
+
+			&.middle{
+				
+				position: relative;
+				
+				&:before{
+					content: "";
+					position: absolute;
+					width: 0;
+					height: 2px;
+					bottom: 0;
+					left: 0;
+					background-color:#e04469;
+					visibility: hidden;
+					
+					transition: all 0.3s ease-in-out;
+				}
+				&:hover:before{
+					visibility: visible;
+					
+					width: 100%;
+					
+				}
+				
+			}
+			&:hover{
+				color:$brand;
+				transition:0.3s;
+				i{
+					color: $color-black;
+				}
+
+			}
+
+		}
+
+	}
+	.focus-logo img{
+		width: 53%;
+	}	
+
+}
+
+
+
+
+
+
+
+

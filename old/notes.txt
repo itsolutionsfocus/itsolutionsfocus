@@ -1,0 +1,47 @@
+notes & links about focus website:-
+
+https://css-tricks.com/almanac/properties/t/transition/ ---transition property link---
+
+https://www.emswebtech.com/
+
+
+https://www.techiesys.in/Create-website-designer-Bangalore.html site
+
+	
+image replace in home section:done , home active show color:done
+
+button hover effect on full page:done
+
+about us image change cmputer image make some change and apply:done
+
+services:add contents and read more amd modify design work:done
+
+portfolio
+
+all, web design, graph design:done
+
+add picture paced in inner of the cumputer:done
+
+on click go to next new page using (target="new") more button:done
+
+portfolio updation
+
+graphic image focus logo and chat microsoft:done
+
+
+clients updation:done
+
+number pace to botton on phone section:done
+
+footer
+
+facebook instagram linked in social icons:done linking:pending
+
+
+on inner page reduce the height on menu bar and brudcumbs:pending
+
+
+https://www.webomindapps.com/w-assets/images/home/web-design-and%20development.png
+
+
+on scroll inner page header have no shadow

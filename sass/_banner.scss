@@ -1,32 +1,18 @@
-section#banner{
-	padding: 140px 0px 60px 0px;
+#banner{
+	padding: 140px 0px 0px 0px;
 	/*	background: $bg-light-blue;*/
 	.banner-section {
 		.left-b{
 			padding-top: 100px;
-			
-			h6{
-			color: $black;
-			margin-bottom: 20px;
-			letter-spacing: 1px;
+			h1{
+				color: $black;
+				margin-bottom: 15px;
+				letter-spacing: 1px;
+				font-weight: 500;
+				font-size: 1rem;
+			}
+
 		}
-		h1{
-			color: $black;
-			letter-spacing: 2px;
-			line-height: 50px;
-			font-weight: 600;
-			font-size: 35px;
-		}
-		}
-		
-		
-		p{
-			margin: 15px 0px;
-			line-height: 30px;
-		}
-		
-		
-		
 		
 		.banner-img {
 			text-align: end;
@@ -36,4 +22,7 @@ section#banner{
 			}
 		}
 	}
+}
+h2.tagline {
+	line-height: 50px;
 }

@@ -13,72 +13,25 @@
 	</div>
 </section>
 
-<section id="dynamic-text" class="site-container">
+<section id="dynamic-text" class="site-container sections-gap-tb">
 	<div class="container-fluid custom">
 		<div class="row service-dynamic m-0">
-
-			<div class="col-lg-6">
-				<img src="images/logo-identity.jpg"  alt="img">
+			<div class="col-lg-4">
+				<img src="images/focus-it-solutions-services.png" class="img-fluid"  alt="Focus IT Solutions Services">
 			</div>
-
-			<div class="col-lg-6 ">
-
-				<!-- <h2>Dynamic website</h2> -->
-
-				<p class="mb-0 line-controll">Dynamic web design makes it easy to add and update a variety of content, such as text, images, videos, and product descriptions. Measuring not only a good site look. The real success lies in delivering something safe, reliable and easy for users to navigate. Our expert development team works with the best technology and best practices, and our designers focus on the various elements in great detail.<br>
-					A dynamic website usually has two interfaces.  One is Admin Panel - that allows the website administrator to add, edit or change the contents of the website through an easy-to-use interface. Second is Front Pages, that shows dynamically updated contents.	
-
-				</p>
-				<!-- <button type="button" class="btn btn-primary primary-fit-btn ">LEARN MOREE</button> -->
-			</div>
-			
-
-
-		</div>
-
-
-	</div>
-
-
-</section>
-<section id="request" class="site-container"> 
-	<div class="container-fluid custom">
-		<div class="row request-section m-0">
-			<div class="col-lg-8 col-md-7 col-sm-12 request p-0">
-
-				<h4>
-					<span>Let's Get your project started</span>
-
-				</h4>
-				<p>
-					We will help you to achieve your goals and to grow your business.
-				</p>
-			</div>
-
-			<div class="col-lg-4 col-md-5 col-sm-12 request-bt p-0">
-				<button type="button" class="btn  light-fit-btn">REQUEST A QUOTE</button>
-			</div>
+			<div class="col-lg-8 d-flex">
+				<div class="align-self-center pr-3 pl-3">
+					<p>
+						Dynamic web design makes it easy to add and update a variety of content, such as text, images, videos, and product descriptions. Measuring not only a good site look. The real success lies in delivering something safe, reliable and easy for users to navigate. Our expert development team works with the best technology and best practices, and our designers focus on the various elements in great detail.
+					</p>
+					<p>
+						A dynamic website usually has two interfaces.  One is Admin Panel - that allows the website administrator to add, edit or change the contents of the website through an easy-to-use interface. Second is Front Pages, that shows dynamically updated contents.	
+					</p>
+					<!-- <button type="button" class="btn btn-primary primary-fit-btn ">LEARN MOREE</button> -->
+				</div>
+			</div>		
 		</div>
 	</div>
 </section>
-
-
+<?php include 'request-banner.php';?>
 <?php include 'footer.php';?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

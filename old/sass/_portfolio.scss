@@ -1,0 +1,163 @@
+/* Portfolio Section
+--------------------------------*/
+#portfolio {
+	background: $bg-light-blue;
+	padding: 60px 0;
+	&.section-bg{
+		background: none !important;
+
+	}
+	header{
+		h2{
+			color: $black;
+			letter-spacing: 2px;
+			font-weight: 600;
+			font-size: 30px;
+		}
+		p{
+			margin: 15px 0px;
+			color: $black;
+		}
+	}
+	#portfolio-flters {
+		padding: 0;
+		margin: 5px 0 35px 0;
+		list-style: none;
+		text-align: center;
+		li {
+			cursor: pointer;
+			margin: 15px 15px 15px 0;
+			display: inline-block;
+			padding: 6px 10px;
+			font-size: 16px;
+			line-height: 20px;
+			color: $black;
+			font-weight: 600;
+			margin-bottom: 5px;
+			transition: all 0.3s ease-in-out;
+			&:hover, &.filter-active{
+				color: $brand;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+	.portfolio-item {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 30px;
+		.portfolio-wrap {
+			overflow: hidden;
+			position: relative;
+			margin: 0;
+			&:hover{
+				.portfolio-info {
+					opacity: 1;
+				} 
+				img {
+					opacity: 0.4;
+					transition: 0.3s;
+				}
+			} 
+			.portfolio-info {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				text-align: center;
+				opacity: 0;
+				transition: 0.2s linear;
+				h4 {
+					font-size: 18px;
+					line-height: 1px;
+					font-weight: 500;
+					margin-bottom: 14px;
+					padding-bottom: 0;
+					a {
+						color: #fff;
+						&:hover {
+							text-decoration:underline;
+						}
+
+					}
+				}
+				p {
+					padding: 0;
+					margin: 0;
+					color: #f8fcff;
+					font-weight: 400;
+					font-size: 13px;
+					
+				}
+				.link-preview, .link-details {
+					display: inline-block;
+					line-height: 1;
+					text-align: center;
+					width: 36px;
+					height: 36px;
+					background: $brand;
+					border-radius: 50%;
+					margin: 10px 4px 0 4px;   
+					padding: 2px 5px;
+					transition-timing-function: ease-out;
+					transition:0.3s;
+					i {
+						padding-top: 8px;
+						font-size: 18px;
+						color: #fff;
+					}
+					&:hover {
+						background: $black;
+						transition: 0.3s;
+						i {
+							color: #fff;
+						}
+					}
+
+				}
+
+			}
+			&:hover {
+				background: #282646;
+			}
+
+		}
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

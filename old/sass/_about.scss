@@ -1,0 +1,37 @@
+#about{
+	/*padding: 0px  0px 60px 0px;	*/
+	.about-section {
+		h2{
+			color: $black;
+			letter-spacing: 2px;
+			font-weight: 600;
+			font-size: 29px;
+		}
+		p{
+			margin: 15px 0px;
+			color: $black;
+			line-height: 30px;
+		}
+
+		.about-img{
+			img{
+				width: 85%;
+			}
+
+		}
+		.right-a{
+			padding: 60px 0px;
+
+		}
+		.left-a{
+			text-align: center;
+		}
+	}
+	
+}
+
+
+
+
+
+

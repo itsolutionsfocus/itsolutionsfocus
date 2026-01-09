@@ -1,0 +1,40 @@
+#breadcrumbs {
+  padding: 30px 0;
+  background:#f5f9fa;
+  min-height: 40px;
+  margin-top: 107px;
+  color:#000;
+  &.bruds{
+    margin-top: 100px !important;
+  }
+  ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px 0px 10px 0px;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    li + li{
+      &::before{
+        display: inline-block;
+        padding-right: 10px;
+        color: #000;
+        content: "/";
+      }
+    }
+    a{
+      color: #ee5782;
+      font-weight: 600;
+      padding-right: 5px;
+    }
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+}
+
+

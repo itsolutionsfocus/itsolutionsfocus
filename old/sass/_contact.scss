@@ -1,0 +1,63 @@
+/* contact Section start*/
+#contact{
+	padding: 60px 0 0 0;
+	.contact-form{
+		background: $white;
+		box-shadow: 0px 0px 10px rgba(234,234,234,0.7);
+		border: 1px solid #f1f1f1;
+		.form-group{
+			border-radius:0;
+			border-bottom:1px solid #16456521;
+			.form-control{
+				border:none;
+				font-size: 16px;
+				color: #164565;
+				&:focus{
+					border-color:none !important;
+					box-shadow: none !important;
+				}
+			}
+		}
+		.form-btn{
+			.fit-default-btn{
+				font-size:$btn-text;
+				border-radius: 200px;
+				border:none;
+				padding: 12px 20px;
+				letter-spacing: 1px;
+				font-weight: 600;
+				outline:none;
+				&.primary-fit-btn{
+					background-color:$bg-dark-blue;
+					&:hover{
+						background:$bg-dark-blue;
+						box-shadow: 0px 0px 10px rgba(234,234,234,0.7);
+						border: 1px solid #f1f1f1;
+					}
+				}
+			}
+			button{
+
+				width: 100%;
+			}
+
+		}
+	}
+	.address-section, .phone-section{
+		background:$bg-white;
+		box-shadow: 0px 0px 10px rgba(234,234,234,0.7);
+		border: 1px solid $white;
+		line-height: 30px;
+		.round{
+			font-size: 30px;
+			color: $light-grey;
+		}
+	}
+	.map-section{
+		background:$bg-white;
+		box-shadow: 0px 0px 10px rgba(234,234,234,0.7);
+		border: 1px solid #f1f1f1;
+	}
+
+}
+/* subscribe Section end*/

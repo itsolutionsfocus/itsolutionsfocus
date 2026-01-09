@@ -1,5 +1,5 @@
 <!-- footer and contact -->
-<section id="contact" class="site-container">
+<section id="contact" class="site-container sections-gap-t">
 	<div class="container-fluid custom">
 		<div class="row contact-section m-0 p-0">
 			<div class="col-lg-4 p-5 contact-form">
@@ -58,7 +58,7 @@
 							<div class="flex-column ml-4">
 								<h4>Our Address</h4>
 								<span>Surya Arcade, 3rd 
-									Floor, Kalpetta, <br>673121
+									Floor, Kalpetta, <br>Wayanad, Kerala, 673121
 								</span>
 							</div>
 						</div>
@@ -136,5 +136,15 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 	<!---Custom Script--->
 	<script type="text/javascript" src="js/custom.js"></script>
+<!-- 	<div style="display: none;">
+		<a href='https://www.symptoma.com/en/info/covid-19'>Q&A Coronavirus</a> 
+	</div>
+	<script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=b440a688b7bef95dac5d35d99abf68d7faacd241'></script>
+	<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/636332/t/5"></script>
+	<style type="text/css">
+		img.counterimg, div#error_ {
+			display: none !important;
+		}
+	</style> -->
 </body>
 </html>
