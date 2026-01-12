@@ -8,4 +8,4 @@
 
 <meta name="description" content="Focus IT Solutions is a leading IT services and business technology Company providing the best-quality web application development at an affordable cost.">
 
-<meta name="keywords" content="SEO Services in kalpetta, SEO Services in Kerala, SEO Services in India, Search Engine optimization">
+<meta name="keywords" content="SEO Services in kalpetta, SEO Services in Kerala, SEO Services in India, Search Engine optimization, Voice search optimization Kerala, Local SEO expert Wayanad, Google Business Profile optimization Kalpetta, Zero-click search optimization India, Answer engine optimization Kerala, Best SEO agency Wayanad 2026">

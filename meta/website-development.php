@@ -8,4 +8,4 @@
 
 <meta name="description" content="Web Development Company India, Web Development Company Kerala, Best website development company in Kerala">
 
-<meta name="keywords" content="Web Development Company India, Web Development Company Kerala, Best website development company in Kerala">
+<meta name="keywords" content="Web Development Company India, Web Development Company Kerala, Best website development company in Kerala, Custom website development Kerala, PHP web development Wayanad, Python web development India, Full-stack development services Kalpetta">

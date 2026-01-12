@@ -8,4 +8,4 @@
 
 <meta name="description" content="Focus IT Solutions is a leading IT services and business technology Company providing the best-quality web application development at an affordable cost.">
 
-<meta name="keywords" content="Mobile app development company in Kalpetta, Mobile app development company in kerala, Mobile app development company in india">
+<meta name="keywords" content="Mobile app development company in Kalpetta, Mobile app development company in kerala, Mobile app development company in india, Flutter app development Wayanad, React Native app developer Kalpetta, Android and iOS app development Kerala, Cross-platform mobile apps India, Food delivery app development Wayanad, Fintech app development Kerala">

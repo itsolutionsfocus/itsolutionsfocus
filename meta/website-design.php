@@ -8,4 +8,4 @@
 
 <meta name="description" content="Focus IT Solutions is a leading IT services and business technology Company providing the best-quality web application development at an affordable cost.">
 
-<meta name="keywords" content="Web Design Company in India, Top Web Designing Company India, Web Designing Company India, Creative design company in India, Web Design Company in kerala">
+<meta name="keywords" content="Web Design Company in India, Top Web Designing Company India, Web Designing Company India, Creative design company in India, Web Design Company in kerala, Responsive web design Wayanad, Modern UI/UX design Kerala, Small business website design Kalpetta, Corporate website design India, Fast-loading website design 2026">

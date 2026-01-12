@@ -8,4 +8,4 @@
 
 <meta name="description" content="Focus IT Solutions is a leading IT services and business technology Company providing the best-quality web application development at an affordable cost.">
 
-<meta name="keywords" content="SEM Services in kalpetta, SEM Services in Kerala, SEM Services in India, Search engine marketing">
+<meta name="keywords" content="SEM Services in kalpetta, SEM Services in Kerala, SEM Services in India, Search engine marketing, PPC management services Wayanad, Google Ads expert Kerala, Paid search marketing India, Social media advertising Kalpetta">

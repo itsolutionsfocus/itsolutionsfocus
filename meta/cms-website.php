@@ -8,4 +8,4 @@
 
 <meta name="description" content="Focus IT Solutions is a leading IT services and business technology Company providing the best-quality web application development at an affordable cost.">
 
-<meta name="keywords" content="CMS Website development in Kalpetta, Cms Website development in Wayanad, Cms Website development in kerala, Cms Website development in india">
+<meta name="keywords" content="CMS Website development in Kalpetta, Cms Website development in Wayanad, Cms Website development in kerala, Cms Website development in india, WordPress development Wayanad, Shopify store setup Kerala, Headless CMS development India, WooCommerce expert Kalpetta">

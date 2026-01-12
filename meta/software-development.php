@@ -8,4 +8,4 @@
 
 <meta name="description" content="Focus IT Solutions is a leading IT services and business technology Company providing the best-quality web application development at an affordable cost.">
 
-<meta name="keywords" content="Software Development Company in kalpetta, Software Development Company in Kerala, Software Development Company in India">
+<meta name="keywords" content="Software Development Company in kalpetta, Software Development Company in Kerala, Software Development Company in India, Custom web application development Kerala, SaaS product development India, API development and integration Wayanad, Cloud migration services Kerala, AI chatbot development services Kerala, Enterprise software solutions India">

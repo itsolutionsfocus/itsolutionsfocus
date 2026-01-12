@@ -8,4 +8,4 @@
 
 <meta name="description" content="Focus IT Solutions is a leading IT services and business technology Company providing the best-quality web application development at an affordable cost.">
 
-<meta name="keywords" content="Email marketing Services in Wayanad, Email marketing Services in kalpetta, Email marketing Services in Kerala, Email marketing Services in India,">
+<meta name="keywords" content="Email marketing Services in Wayanad, Email marketing Services in kalpetta, Email marketing Services in Kerala, Email marketing Services in India, Automated email marketing campaigns Kerala, Newsletter management services Wayanad, Drip marketing strategy India">

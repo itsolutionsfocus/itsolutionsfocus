@@ -8,4 +8,4 @@
 
 <meta name="description" content="Focus IT Solutions is a leading IT services and business technology Company providing the best-quality web application development at an affordable cost.">
 
-<meta name="keywords" content="Contact Focus IT Solutions">
+<meta name="keywords" content="Contact Focus IT Solutions, IT support contact Wayanad, Hire web developers Kerala, Request free quote website design">
