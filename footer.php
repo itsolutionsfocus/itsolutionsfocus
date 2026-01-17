@@ -93,7 +93,7 @@
 			<div class="row footer-section m-0">
 
 				<div class="col-lg-8 col-12">
-					<span>Copyright © 2020 by Focus It Solutions. All Rights Reserved.</span>
+					<span>Copyright © <?php echo date("Y"); ?> by Focus It Solutions. All Rights Reserved.</span>
 
 				</div>
 
