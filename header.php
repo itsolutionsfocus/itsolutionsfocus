@@ -3,7 +3,7 @@ $pages = array();
 $pages["Home"] = "/";
 $pages["About us"] = "about-us";
 $pages["Services"] = ['Logo & Identity'=>'logo-identity','Website Design'=>'website-design','Website Development'=>'website-development','E-Commerce Website'=>'e-commerce','Dynamic website'=>'dynamic-website','CMS Website'=>'cms-website','Mobile Apps'=>'mobile-apps','Search Engine Optimization'=>'seo','Search Engine Marketing'=>'sem','Email Marketing'=>'email-marketing','Digital Marketing'=>'digital-marketing','Software development'=>'software-development'];
-// $pages["Products"] = "Products";
+$pages["Products"] = ['ArtsFlow'=>'artsflow'];
 $pages["Portfolio"] = "portfolio";
 $pages["Contact us"] = "contact";
 ?>
@@ -47,6 +47,8 @@ $pages["Contact us"] = "contact";
 		$add_seo_meta = 'digital-marketing';
 	}elseif ($activePage == 'software-development') {
 		$add_seo_meta = 'software-development';
+	}elseif ($activePage == 'artsflow') {
+		$add_seo_meta = 'artsflow';
 	}elseif ($activePage == 'contact') {
 		$add_seo_meta = 'contact';
 	}else {
@@ -62,6 +64,7 @@ $pages["Contact us"] = "contact";
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
 	<!---Google font--->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<!---bootstrap css--->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 	<!-- for modal-window -->
