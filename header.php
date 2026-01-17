@@ -73,6 +73,14 @@ $pages["Contact us"] = "contact";
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
 	<!---css--->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!---International Telephone Input CSS--->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+	<style>
+		.iti { width: 100%; margin-bottom: 20px; }
+		.iti__flag-container { z-index: 99; }
+		#exampleInputMobile { padding-left: 50px !important; }
+		.contact-error { color: #dc3545; font-size: 12px; margin-top: 5px; display: none; }
+	</style>
 	<!-- Google Tag Manager -->
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

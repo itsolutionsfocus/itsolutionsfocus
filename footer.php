@@ -9,7 +9,8 @@
 						<form action="https://api.web3forms.com/submit" method="POST">
 							<input type="hidden" name="access_key" value="9233c219-ce04-47ea-93f3-b29ad35972cd">
 							<input type="hidden" name="subject" value="New Submission from Focus IT Website">
-							<input type="hidden" name="redirect" value="https://focus-its.com/thank-you.html">
+							<!-- <input type="hidden" name="redirect" value="https://focus-its.com/thank-you.php"> -->
+							<div id="result" class="mb-3" style="display: none;"></div>
 
 							<div class="form-group m-0">
 								<label for="formGroupExampleInput"></label>
@@ -140,6 +141,120 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 	<!---Custom Script--->
 	<script type="text/javascript" src="js/custom.js"></script>
+	<!---International Telephone Input JS--->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+	<script>
+		// Initialize Phone Input
+		var input = document.querySelector("#exampleInputMobile");
+		var errorMsg = document.createElement("span");
+		errorMsg.classList.add("contact-error");
+		errorMsg.innerHTML = "Invalid phone number";
+		input.parentNode.insertBefore(errorMsg, input.nextSibling);
+
+		var iti = window.intlTelInput(input, {
+			utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+			initialCountry: "auto",
+			geoIpLookup: function(success, failure) {
+				$.get("https://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+					var countryCode = (resp && resp.country) ? resp.country : "in";
+					success(countryCode);
+				});
+			},
+		});
+
+		// Validation Logic
+		var form = document.querySelector("form[action*='web3forms']");
+		var emailInput = document.querySelector("#exampleInputEmail1");
+		var emailError = document.createElement("span");
+		emailError.classList.add("contact-error");
+		emailError.innerHTML = "Invalid email address";
+		emailInput.parentNode.insertBefore(emailError, emailInput.nextSibling);
+
+		// Reset errors on change
+		input.addEventListener('blur', function() {
+			resetPhoneError();
+			if (input.value.trim()) {
+				if (!iti.isValidNumber()) {
+					errorMsg.style.display = "block";
+				}
+			}
+		});
+
+		input.addEventListener('input', resetPhoneError);
+		
+		function resetPhoneError() {
+			errorMsg.style.display = "none";
+		}
+
+		form.addEventListener("submit", function(e) {
+			e.preventDefault();
+			var result = document.getElementById("result");
+			var valid = true;
+			
+			// Email Validation
+			var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+			if (!emailRegex.test(emailInput.value)) {
+				emailError.style.display = "block";
+				valid = false;
+			} else {
+				emailError.style.display = "none";
+			}
+
+			// Phone Validation
+			if (input.value.trim()) {
+				if (!iti.isValidNumber()) {
+					errorMsg.style.display = "block";
+					valid = false;
+				} else {
+					// Update input value with full international number
+					input.value = iti.getNumber();
+				}
+			}
+
+			if (valid) {
+				const formData = new FormData(form);
+				const object = Object.fromEntries(formData);
+				const json = JSON.stringify(object);
+				
+				result.style.display = "block";
+				result.innerHTML = "Please wait...";
+				result.style.color = "#666";
+
+				fetch("https://api.web3forms.com/submit", {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+						"Accept": "application/json"
+					},
+					body: json
+				})
+				.then(async (response) => {
+					let json = await response.json();
+					if (response.status == 200) {
+						result.innerHTML = "Message sent successfully!";
+						result.style.color = "green";
+						form.reset();
+						if(iti) iti.setNumber(""); // Reset phone input
+					} else {
+						console.log(response);
+						result.innerHTML = json.message;
+						result.style.color = "red";
+					}
+				})
+				.catch(error => {
+					console.log(error);
+					result.innerHTML = "Something went wrong!";
+					result.style.color = "red";
+				})
+				.then(function() {
+					form.reset();
+					setTimeout(() => {
+						result.style.display = "none";
+					}, 5000);
+				});
+			}
+		});
+	</script>
 <!-- 	<div style="display: none;">
 		<a href='https://www.symptoma.com/en/info/covid-19'>Q&A Coronavirus</a> 
 	</div>
