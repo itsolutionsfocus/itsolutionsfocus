@@ -6,22 +6,26 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<h4 class="m-0">Let’s talk business </h4>
-						<form>
+						<form action="https://api.web3forms.com/submit" method="POST">
+							<input type="hidden" name="access_key" value="9233c219-ce04-47ea-93f3-b29ad35972cd">
+							<input type="hidden" name="subject" value="New Submission from Focus IT Website">
+							<input type="hidden" name="redirect" value="https://focus-its.com/thank-you.html">
+
 							<div class="form-group m-0">
 								<label for="formGroupExampleInput"></label>
-								<input type="text" class="form-control p-0" id="formGroupExampleInput" placeholder="Full Name*">
+								<input type="text" class="form-control p-0" id="formGroupExampleInput" name="name" placeholder="Full Name*" required>
 							</div>
 							<div class="form-group m-0">
 								<label for="exampleInputEmail1"></label>
-								<input type="email" class="form-control p-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email*">
+								<input type="email" class="form-control p-0" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Email*" required>
 							</div>
 							<div class="form-group m-0">
-								<label for="exampleInputEmail1"></label>
-								<input type="email" class="form-control p-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Mobile Number">
+								<label for="exampleInputMobile"></label>
+								<input type="tel" class="form-control p-0" id="exampleInputMobile" name="mobile" aria-describedby="emailHelp" placeholder="Mobile Number">
 							</div>
 							<div class="form-group m-0">
 								<label for="exampleFormControlSelect1" placeholder="Select Service"></label>
-								<select class="form-control p-0" id="exampleFormControlSelect" >
+								<select class="form-control p-0" id="exampleFormControlSelect" name="service">
 									<option>Logo & Identity</option>
 									<option>Website Design</option>
 									<option>Website Development</option>
@@ -39,10 +43,10 @@
 
 							<div class="form-group m-0">
 								<label for="exampleFormControlTextarea1"></label>
-								<textarea class="form-control p-0" id="exampleFormControlTextarea1" placeholder="Messages..." rows="3"></textarea>
+								<textarea class="form-control p-0" id="exampleFormControlTextarea1" name="message" placeholder="Messages..." rows="3"></textarea>
 							</div>
 							<div class="form-btn mt-4">
-								<button type="button" class="seconday-fit-btn">SEND MESSAGE</button>
+								<button type="submit" class="seconday-fit-btn">SEND MESSAGE</button>
 							</div>
 						</form>
 					</div>
